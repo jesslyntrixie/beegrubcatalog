@@ -1,0 +1,166 @@
+.social-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+}
+
+.social-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.social-post-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.platform-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.post-screenshot {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.post-screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 24px;
+}
+
+.post-caption {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.post-handle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.post-handle a {
+  color: #34C759;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-price {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 16px;
+}
+
+.post-testimony {
+  display: flex;
+  gap: 12px;
+  background: #f9fafb;
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid #34C759;
+}
+
+.testimony-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.post-testimony p {
+  font-size: 14px;
+  color: #4b5563;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* New Bisanara Section */
+.bisanara-section {
+  margin-top: 80px;
+  padding: 48px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.bisanara-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.bisanara-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.bisanara-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.bisanara-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.bisanara-card:hover {
+  transform: translateY(-4px);
+}
+
+.bisanara-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bisanara-caption {
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .social-posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bisanara-section {
+    padding: 32px 24px;
+  }
+
+  .bisanara-grid {
+    grid-template-columns: 1fr;
+  }
+}

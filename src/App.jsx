@@ -4,6 +4,13 @@ import Hero from './components/Hero';
 import Problem from './components/Problem';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+import Products from './components/Products';
+import Team from './components/Team';
+import Exhibition from './components/Exhibition';
+import SocialMedia from './components/SocialMedia';
+import BMC from './components/BMC';
+import FeedbackGrid from './components/FeedbackGrid';
+import Reflections from './components/Reflections';
 import ForVendors from './components/ForVendors';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -18,6 +25,13 @@ function App() {
         <Problem />
         <Features />
         <HowItWorks />
+        <Products />
+        <Team />
+        <Exhibition />
+        <SocialMedia />
+        <BMC />
+        <FeedbackGrid />
+        <Reflections />
         <ForVendors />
         <Contact />
       </main>

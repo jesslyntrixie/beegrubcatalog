@@ -32,13 +32,18 @@ const Navbar = () => {
 
         <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
           <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-          <li><a onClick={() => scrollToSection('features')}>Features</a></li>
-          <li><a onClick={() => scrollToSection('how-it-works')}>How It Works</a></li>
-          <li><a onClick={() => scrollToSection('vendors')}>For Vendors</a></li>
+          <li><a onClick={() => scrollToSection('problem')}>Problem</a></li>
+          <li><a onClick={() => scrollToSection('products')}>Products</a></li>
+          <li><a onClick={() => scrollToSection('team')}>Team</a></li>
+          <li><a onClick={() => scrollToSection('exhibition')}>Exhibition</a></li>
+          <li><a onClick={() => scrollToSection('social-media')}>Social Media</a></li>
+          <li><a onClick={() => scrollToSection('bmc')}>BMC</a></li>
+          <li><a onClick={() => scrollToSection('feedback')}>Feedback</a></li>
+          <li><a onClick={() => scrollToSection('reflections')}>Reflections</a></li>
           <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
         </ul>
 
-        <button className="navbar-cta">Download App</button>
+        <a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer" className="navbar-cta">Download App</a>
       </div>
     </nav>
   );
