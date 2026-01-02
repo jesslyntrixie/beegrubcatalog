@@ -4,34 +4,40 @@ import './Features.css';
 const Features = () => {
   const features = [
     {
-      icon: '🚫',
-      title: 'Anti Antre',
-      description: 'Ambil makanan tanpa antre. Tinggal ke pick-up point, langsung ambil.',
-    },
-    {
       icon: '⏰',
-      title: 'Pesan Sekarang, Ambil Nanti',
-      description: 'Pesan dari pagi, ambil saat istirahat. No rush, no panic.',
-    },
-    {
-      icon: '🏪',
-      title: 'Menu Resmi Kampus',
-      description: 'Dari kantin resmi BINUS. Aman, higienis, terpercaya.',
-    },
-    {
-      icon: '📱',
-      title: 'Aplikasi Mobile',
-      description: 'Interface mudah digunakan seperti aplikasi food delivery pada umumnya.',
-    },
-    {
-      icon: '💳',
-      title: 'Pembayaran Cashless',
-      description: 'QRIS, e-wallet, mobile banking. Cepat dan aman.',
+      title: 'Scheduled Pre‑Order',
+      description:
+        'Students can place food orders in advance and assign an exact pickup time that matches their class schedule.',
     },
     {
       icon: '📍',
-      title: 'Pickup Point Strategis',
-      description: 'Lokasi pickup tersebar di seluruh area kampus, selalu dekat dari kelas.',
+      title: 'Smart Pickup Points',
+      description:
+        'BeeGrub provides predefined pickup locations across BINUS Anggrek that are linked directly to each order.',
+    },
+    {
+      icon: '📡',
+      title: 'Live Order Status',
+      description:
+        'The app shows real‑time preparation status and sends in‑app notifications when an order is ready.',
+    },
+    {
+      icon: '🏫',
+      title: 'Campus‑Verified Vendors',
+      description:
+        'Only officially registered BINUS canteen partners and nearby vendors are onboarded into the BeeGrub system.',
+    },
+    {
+      icon: '💳',
+      title: 'Cashless Central Payments',
+      description:
+        'All transactions are processed through integrated QRIS and e‑wallet payment channels inside the app.',
+    },
+    {
+      icon: '🎓',
+      title: 'Student‑Only Access',
+      description:
+        'User accounts are authenticated using official BINUS credentials to keep the platform exclusive to the campus community.',
     },
   ];
 
@@ -39,12 +45,13 @@ const Features = () => {
     <section id="features" className="features">
       <div className="features-container">
         <div className="features-header">
-          <span className="section-badge">Fitur Unggulan</span>
+          <span className="section-badge">Product Features</span>
           <h2 className="section-title">
-            Solusi <span className="gradient-text">Lengkap</span> untuk Makan Siang Tanpa Ribet
+            What <span className="gradient-text">BeeGrub</span> Actually Delivers
           </h2>
           <p className="section-subtitle">
-            Dirancang khusus untuk mahasiswa BINUS yang menghargai waktu mereka
+            A campus‑only pre‑order and delivery platform designed to protect the one resource BINUS students value most:
+            time.
           </p>
         </div>
 

@@ -1,14 +1,17 @@
 .bmc-section {
-  padding: 80px 20px;
-  background: white;
+  height: 100vh;
+  padding: 60px 20px 40px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .bmc-canvas {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto auto auto;
-  gap: 16px;
-  margin-top: 48px;
+  gap: 12px;
+  margin-top: 32px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -16,25 +19,25 @@
 
 .bmc-box {
   background: white;
-  border: 3px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 20px;
-  min-height: 250px;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 0;
   transition: all 0.3s ease;
 }
 
 .bmc-box:hover {
   border-color: #34C759;
-  box-shadow: 0 8px 24px rgba(52, 199, 89, 0.2);
-  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(52, 199, 89, 0.15);
+  transform: translateY(-2px);
 }
 
 .bmc-box h3 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 800;
   color: #1f2937;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
   border-bottom: 2px solid #34C759;
 }
 
@@ -44,11 +47,11 @@
 }
 
 .bmc-box li {
-  font-size: 13px;
+  font-size: 11px;
   color: #4b5563;
-  line-height: 1.6;
-  margin-bottom: 10px;
-  padding-left: 20px;
+  line-height: 1.4;
+  margin-bottom: 6px;
+  padding-left: 16px;
   position: relative;
 }
 
@@ -120,24 +123,4 @@
   background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
 }
 
-@media (max-width: 1200px) {
-  .bmc-canvas {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-
-  .bmc-box {
-    grid-column: auto !important;
-    grid-row: auto !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .bmc-canvas {
-    grid-template-columns: 1fr;
-  }
-
-  .bmc-box {
-    min-height: auto;
-  }
-}
+/* Keep single compact layout so content fits within viewport height on desktop */

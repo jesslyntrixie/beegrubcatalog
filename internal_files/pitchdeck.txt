@@ -1,0 +1,315 @@
+BEEGRUB
+BEEGRUB
+BEEGRUB
+FAST BITES NO LINES, MORE TIME TO SHINE
+sebagai service
+pengantaran makanan bagi
+mahasiswa  mahasiswi
+Universitas Bina Nusantara
+memberikan layanan
+antar makanan yang
+dapat diandalkan
+dengan sistem pre
+order
+WHAT IS OUR GOAL?
+PROBLEM
+Proses makan tidak
+efisien dan menyita
+waktu.
+Waktu istirahat
+berubah jadi sumber
+stres dan kecemasan.
+Mahasiswa sering
+melewatkan makan
+hingga mengganggu
+fokus belajar.
+HTTPS://SEHAT20AN.BLOGSPOT.COM/2025/04/MAS
+ALAH-POLA-MAKAN-PADA-MAHASISWA-MASA.HTML
+HTTPS://WWW.IDNTIMES.COM/LIFE/EDUCATION/MAH
+ASISWA-LEBIH-SERING-LUPA-MAKAN-DARIPADA
+LUPA-DEADLINE-C1C2-01-BFJMS-9PGR2G Aktivitas kampus yang
+padat membuat
+mahasiswa sering
+melewatkan atau tidak
+konsisten dalam waktu
+makan.
+Tekanan akademik
+membuat mahasiswa
+lebih fokus pada hal
+mendesak daripada
+kebutuhan makan.
+SUPPORTING 
+DATA
+Tekanan akademik
+membuat mahasiswa lebih
+fokus pada hal mendesak
+daripada kebutuhan
+makan.
+01 02
+SOLUTION
+BeeGrub membantu mahasiswa menghemat waktu istirahat
+yang selalu sempit. Tanpa antre, tanpa ribet, tinggal pesan
+sekarang, ambil saat butuh.
+Anti Antre
+✔
+Ambil makanan tanpa antre.
+✔
+Tinggal ke pick-up point, langsung ambil.
+Pesan Sekarang Ambil Nanti
+✔
+Pesan dari pagi, ambil saat istirahat.
+✔
+No rush, no panic.
+Menu resmi kampus
+✔
+Dari kantin resmi BINUS.
+✔
+Aman, higienis, terpercaya.
+WHY NOW?
+01
+KEMACATAN
+VERTIKAL
+02
+Naik turun kantin lama !
+Belum makan, waktu istirahat
+sudah habis 
+�
+�
+DEFISIT KURSI
+03
+Lama cari tempat kosong !
+Makan di kantin kurang ideal 
+�
+�
+ANTRIAN TIDAK
+RATA
+Ada yang ramai, ada yang sepi
+Habis waktu buat ngantri deh 
+�
+�
+MARKET
+SIZE
+01
+TOTAL MARKET
+TAM
+Mahasiswa / Mahasiswi
+Universitas Bina
+Nusantara
+02
+SERVICABLE MARKET
+Mahasiswa / Mahasiswi
+Universitas Bina Nusantara
+@Anggrek
+SAM
+03
+INITIAL MARKET
+Mahasiswa - Mahasiswi
+Universitas Bina
+Nusantara @Anggrek
+yang akan makan di
+kantin
+SOM
+DIRECT 
+COMPETITORS
+Murah
+Tidak Efisien
+JASTIP
+Efisien
+Mahal
+INDIRECT COMPETITION
+Vending Machine Bekal Sendiri
+Toko Swalayan
+(Indomaret,
+Alfamaret)
+Starbucks BINUS
+Makanan Berat
+Harga Terjangkauj
+Kenyamanan
+Efisiensi waktu
+Relatif
+Mahal
+Sangat
+Mahal
+Snack &
+Minuman
+Roti dan
+Cake
+Butuh
+Persiapan
+Bisa
+Ramai,
+panas
+Perlu
+turun,
+antri
+Harus
+keluar
+kampus
+DEMO
+BUSINESS MODEL
+Key Partners
+Cost Structure Revenue Stream
+Key Activities
+Key Resources Channel
+Value Propositions Customer Relationship Customer Segments
+Mitra kantin resmi di
+lingkungan BINUS Anggrek
+Pihak kampus BINUS Anggrek
+(izin operasional & akses
+lokasi pick-up point)
+Penyedia layanan
+pembayaran digital (QRIS, e
+wallet, mobile-banking)
+Kurir internal (Staff kantin
+kampus)
+Sponsor atau brand makanan
+untuk iklan banner
+Investor pengembang
+aplikasi
+Pengembangan & pemeliharaan aplikasi.
+Operasional delivery (penjadwalan,
+distribusi pesanan, koordinasi pick-up
+point).
+Rekrutmen & manajemen kurir.
+Kerja sama dengan vendor kantin.
+Pemasaran & promosi (awareness di
+lingkungan kampus).
+Validasi & analisis feedback pelanggan.
+Tim inti (CEO, CTO, COO, CMO, CFO) +
+kurir on-campus.
+Server cloud (Google Cloud), pick-up
+booth kampus, perangkat kurir.
+Brand “BeeGrub”, sistem pre-order
+kampus, database pengguna,
+partnership eksklusif.
+Modal awal tim, revenue per-order,
+kredit cloud, potensi investor.
+Makanan & kemasan dari mitra kantin.
+Banner, tas delivery, alat promosi.
+Hubungan otomatis melalui aplikasi
+(self-service)
+Customer service dalam aplikasi
+(jika ada kendala)
+Program loyalitas atau langganan
+premium
+Umpan balik dan survey kepuasan
+pengguna
+Aplikasi BeeGrub (mobile app atau web
+based)
+Media sosial & komunitas kampus
+(Instagram, Line, Discord BINUSIAN)
+Booth promosi & demo langsung di area
+kampus
+Kolaborasi dengan organisasi
+mahasiswa dan event kampus
+Mahasiswa BINUS Kampus
+Anggrek:
+1.Regular Buyer → Sering makan
+di kampus
+2.The Time-Crunched Achiever
+→ jadwal padat, butuh efisiensi.
+3.The Convenience-Seeker →
+suka transaksi cashless &
+mudah.
+4.The Planner → ingin kepastian
+makanan tersedia sesuai waktu.
+Pengembangan & pemeliharaan aplikasi
+Gaji tim & kompensasi kurir
+Biaya operasional (server, izin, marketing)
+Biaya kolaborasi & komisi untuk mitra kantin
+Produksi konten promosi dan kampanye digital
+Biaya pengiriman: Rp 1.000 – Rp 5.000 per pesanan (bisa per
+lantai)
+Langganan premium: Prioritas antrean & titik ambil eksklusif
+Pendapatan iklan: Banner promosi dari kantin/brand di aplikasi
+Potensi tambahan: Komisi dari setiap transaksi mitra kantin
+Menghemat waktu istirahat
+mahasiswa dengan pesanan
+terjadwal
+Menghilangkan antrean dan
+ketidakpastian
+Pembayaran cashless yang
+cepat dan aman
+Fokus hyper-local: “Kami
+menjual waktu, bukan
+makanan.”
+Menciptakan kebiasaan
+baru dalam membeli
+makanan
+FEEDBACK GRID
+I Like
+Ideas Questions
+Fitur rekomendasi makanan yang tidak terbatas pada menu kantin.
+Fitur “total favorit” atau daftar menu favorit pengguna.
+Fitur batasan waktu pemesanan untuk menghindari penumpukan antrian.
+Pengembangan aplikasi mobile yang lebih interaktif dengan fitur
+notifikasi.
+Penambahan fitur ulasan dan rating untuk setiap merchant atau menu.
+Integrasi dengan sistem pembayaran digital yang lebih beragam.
+Expansi ke Binus region lain setelah sukses di Binus
+Anggrek/Kemanggisan.
+Perluas jangkauan layanan hingga ketiga kampus Binus Kemanggisan.
+Tambahkan panduan penggunaan di dalam aplikasi untuk memudahkan
+pengguna baru.
+Tambah jumlah pickup point untuk memudahkan pengambilan pesanan.
+Tingkatkan kualitas aplikasi secara keseluruhan.
+Beberapa responden merasa produk kurang sesuai dengan kebutuhan
+saat ini.
+Beberapa menyarankan penambahan fitur lain yang lebih variatif.
+Apakah BeeGrub akan berkolaborasi dengan lebih banyak tempat makan
+di lingkungan kampus?
+Apakah aplikasi ini hanya tersedia untuk kalangan Binus
+Anggrek/Kemanggisan atau akan dikembangkan untuk Binus region lain?
+Apakah akan ada fitur ulasan atau rating untuk setiap menu?
+Aplikasi secara keseluruhan dianggap bagus dan bermanfaat.
+Interface mudah digunakan dan dipahami.
+Fitur sudah jelas dan membantu memudahkan proses pemesanan makanan.
+Ide produk sangat baik dan focus pada kebuhutan mahasiswa.
+Kemudahan navigasi seperti aplikasi food delivery pada umumnya.
+Beberapa responden menyebut aplikasi ini "gacor".
+Aplikasi dianggap bermanfaat untuk menghemat waktu mahasiswa.
+I Wish
+OUR TEAM
+BRIAN JUNIARTA DARMADI - CEO
+NIM : 2702279363
+MIREKEL
+TJOA - CMO
+NIM : 2702328831
+JESSLYN TRIXIE
+EDVILIE - COO
+NIM: 2702260514
+NICO WIJAYA
+HARIYANTO - CTO
+NIM : 2702223260
+MOCHAMMAD AQSA
+SANDHY PRADIPTA - CFO
+NIM: 2702302744
+FINANCIAL
+1. ASUMSI DASAR (MONTH 1 - 6 / MVP PHASE)
+Operational Days: 25 Hari/Bulan (Senin-Sabtu).
+Efficiency Strategy: Algorithmic Batching (Target 3-4 pesanan per trip untuk menjaga hourly rate
+kurir tetap tinggi).
+Pricing Model:
+BeeGrub Revenue: Rp 3.000 (Fixed Platform Fee).
+Courier Incentive: Rp 1.500 (Base) + Rp 300 (Per Lantai). Pass-through cost.
+Tech Cost: Minimal (Near Zero). 
+Menggunakan Free Tier Quota (Supabase/Expo) untuk fase validasi awal. Cost akan
+menyesuaikan saat scale-up.
+COGS Calculation: Fee QRIS 0.7% dihitung dari Total Transaksi (GTV), namun ditanggung
+sepenuhnya oleh platform (Subsidi).
+Komponen (Dalam Rupiah) Bulan 1 (Validasi MVP) Bulan 6 (Scale Up) Penjelasan Logika
+Metrik Operasional
+Active Users (MAU) 150 Mahasiswa 1.000 Mahasiswa Target user aktif
+Total Orders / Bulan 750 Transaksi 5.000 Transaksi Asumsi: 30 order/hari (Bulan 1) vs 200
+order/hari (Bulan 6)
+Laporan Laba Rugi
+1. REVENUE (Pemasukan) Rp 2.250.000 Rp 15.000.000 Total Order x Rp 3.000 (Platform Fee)
+2. (-) COGS (Beban Pokok) (Rp 142.500) (Rp 950.000) Subsidi Biaya QRIS (0.7%)
+3. = GROSS PROFIT Rp 2.107.500 Rp 14.050.000 Laba Kotor (Margin ~93%)
+4. (-) Operating Expense (Rp 500.000) (Rp 3.500.000) Marketing (Sticker/Ads) & Server
+5. = OPERATING INCOME Rp 1.607.500 Rp 10.550.000 Laba Operasional
+6. (+/-) Other Income/Exp Rp 0 Rp 0 Tidak ada biaya bunga bank/lainnya
+7. = NET PROFIT (Laba Bersih) Rp 1.607.500 Rp 10.550.000 Langsung untung (Cashflow Positif)
+PROFITABILITY PER ORDER: REVENUE (FEE): RP 3.000 (-) COGS (QRIS): (RP 190) = NET PROFIT: RP
+2.810 PER TRANSAKSI (MARGIN 93%)
+THANK YOU

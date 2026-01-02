@@ -3,19 +3,26 @@ import './Exhibition.css';
 
 const Exhibition = () => {
   const bifestPhotos = [
-    { id: 1, url: 'https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=BIFEST+1', caption: 'BeeGrub Booth at BIFEST 2025' },
-    { id: 2, url: 'https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=BIFEST+2', caption: 'Student Engagement' },
-    { id: 3, url: 'https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=BIFEST+3', caption: 'Product Demo' },
-    { id: 4, url: 'https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=BIFEST+4', caption: 'Team Presentation' },
-    { id: 5, url: 'https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=BIFEST+5', caption: 'Crowd at Our Booth' }
+    { id: 1, url: '/images/bifest/1.jpg', caption: 'BIFEST photo 1' },
+    { id: 2, url: '/images/bifest/2.jpg', caption: 'BIFEST photo 2' },
+    { id: 3, url: '/images/bifest/3.jpg', caption: 'BIFEST photo 3' },
+    { id: 4, url: '/images/bifest/4.jpg', caption: 'BIFEST photo 4' },
+    { id: 5, url: '/images/bifest/5.jpg', caption: 'BIFEST photo 5' },
+    { id: 6, url: '/images/bifest/6.jpg', caption: 'BIFEST photo 6' },
+    { id: 7, url: '/images/bifest/7.jpg', caption: 'BIFEST photo 7' },
+    { id: 8, url: '/images/bifest/8.jpg', caption: 'BIFEST photo 8' }
+
   ];
 
   const entrePhotos = [
-    { id: 1, url: 'https://via.placeholder.com/400x300/34C759/FFFFFF?text=ENTRE+1', caption: 'Entrepreneur Corner Setup' },
-    { id: 2, url: 'https://via.placeholder.com/400x300/34C759/FFFFFF?text=ENTRE+2', caption: 'Live Demonstration' },
-    { id: 3, url: 'https://via.placeholder.com/400x300/34C759/FFFFFF?text=ENTRE+3', caption: 'Customer Interaction' },
-    { id: 4, url: 'https://via.placeholder.com/400x300/34C759/FFFFFF?text=ENTRE+4', caption: 'Feedback Collection' },
-    { id: 5, url: 'https://via.placeholder.com/400x300/34C759/FFFFFF?text=ENTRE+5', caption: 'Team Collaboration' }
+    { id: 1, url: '/images/entrepreneur-corner/1.jpg', caption: 'Entrepreneur Corner photo 1' },
+    { id: 2, url: '/images/entrepreneur-corner/2.jpg', caption: 'Entrepreneur Corner photo 2' },
+    { id: 3, url: '/images/entrepreneur-corner/3.jpg', caption: 'Entrepreneur Corner photo 3' },
+    { id: 4, url: '/images/entrepreneur-corner/4.jpg', caption: 'Entrepreneur Corner photo 4' },
+    { id: 5, url: '/images/entrepreneur-corner/5.jpg', caption: 'Entrepreneur Corner photo 5' },
+    { id: 6, url: '/images/entrepreneur-corner/6.jpg', caption: 'Entrepreneur Corner photo 6' },
+    { id: 7, url: '/images/entrepreneur-corner/7.jpg', caption: 'Entrepreneur Corner photo 7' },
+    { id: 8, url: '/images/entrepreneur-corner/8.jpg', caption: 'Entrepreneur Corner photo 8' }
   ];
 
   return (
@@ -24,10 +31,10 @@ const Exhibition = () => {
         <div className="section-header">
           <span className="section-badge">Market Validation</span>
           <h2 className="section-title">
-            Pameran & <span className="gradient-text">Event</span>
+            BIFEST & <span className="gradient-text">Entrepreneur Corner</span> Photos
           </h2>
           <p className="section-subtitle">
-            Dokumentasi kegiatan market validation kami di BIFEST 2025 dan Entrepreneur Corner
+            Photo documentation of our market validation activities at BINUS Festival 2025 and Entrepreneur Corner.
           </p>
         </div>
 
@@ -48,7 +55,6 @@ const Exhibition = () => {
             {bifestPhotos.map((photo) => (
               <div key={photo.id} className="photo-card">
                 <img src={photo.url} alt={photo.caption} />
-                <p className="photo-caption">{photo.caption}</p>
               </div>
             ))}
           </div>
@@ -71,7 +77,6 @@ const Exhibition = () => {
             {entrePhotos.map((photo) => (
               <div key={photo.id} className="photo-card">
                 <img src={photo.url} alt={photo.caption} />
-                <p className="photo-caption">{photo.caption}</p>
               </div>
             ))}
           </div>

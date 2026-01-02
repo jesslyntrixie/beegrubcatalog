@@ -12,8 +12,7 @@ const Hero = () => {
             <span className="gradient-text">More Time to Shine</span>
           </h1>
           <p className="hero-subtitle">
-            Layanan pre-order makanan yang dapat diandalkan untuk mahasiswa BINUS Anggrek. 
-            Pesan sekarang, ambil nanti. Tanpa antre, tanpa ribet!
+            BeeGrub is a campus-only pre-order app for BINUS Anggrek studentshelping you turn chaotic lunch breaks into calm, predictable meal times.
           </p>
           <div className="hero-stats">
             <div className="stat">
@@ -30,13 +29,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero-cta">
-            <a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              <span>📱</span> Download App
-            </a>
-            <a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              <span>🤝</span> Become a Partner
+            <a href="#products" className="btn-primary">
+              View App Screens
             </a>
           </div>
+          <p className="hero-availability">
+            Available on <span>iOS</span> and <span>Android</span>!
+          </p>
         </div>
         <div className="hero-image">
           <div className="phone-mockup">

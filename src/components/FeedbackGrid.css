@@ -1,60 +1,64 @@
 .feedback-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  min-height: 100vh;
+  background: #fafafa;
 }
 
 .feedback-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 48px 0;
-  max-width: 1000px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 28px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .stat-card {
   background: white;
-  padding: 32px;
-  border-radius: 16px;
+  padding: 16px;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease;
 }
 
 .stat-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
 }
 
 .stat-number {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 800;
   background: linear-gradient(135deg, #C7EC5F 0%, #34C759 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .stat-label {
-  font-size: 14px;
+  font-size: 12px;
   color: #6b7280;
   font-weight: 600;
 }
 
 .feedback-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin-top: 48px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px;
 }
 
 .feedback-box {
   background: white;
-  border-radius: 16px;
-  padding: 32px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  border-top: 6px solid;
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border-top: 4px solid;
 }
 
 .feedback-box.like {
@@ -78,11 +82,11 @@
 }
 
 .feedback-box h3 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 800;
   color: #1f2937;
-  margin-bottom: 20px;
-  padding-bottom: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 2px solid #e5e7eb;
 }
 
@@ -92,11 +96,11 @@
 }
 
 .feedback-box li {
-  font-size: 15px;
+  font-size: 12px;
   color: #4b5563;
-  line-height: 1.7;
-  margin-bottom: 14px;
-  padding-left: 28px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  padding-left: 20px;
   position: relative;
 }
 
@@ -132,16 +136,4 @@
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
-  .feedback-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .feedback-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .stat-number {
-    font-size: 36px;
-  }
-}
+/* Single compact layout to keep grid within viewport height on desktop */

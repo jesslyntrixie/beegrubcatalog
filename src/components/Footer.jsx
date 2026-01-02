@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-brand">
             <h3 className="footer-logo">BeeGrub</h3>
             <p className="footer-tagline">
-              Fast Bites, No Lines, More Time to Shine
+              Calmer lunch breaks, more predictable campus dining.
             </p>
             <div className="footer-social">
               <a href="https://instagram.com/beegrub.binus" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
@@ -21,37 +21,36 @@ const Footer = () => {
           </div>
 
           <div className="footer-links">
-            <h4>Produk</h4>
+            <h4>Product</h4>
             <ul>
-              <li><a href="#features">Fitur</a></li>
-              <li><a href="#how-it-works">Cara Kerja</a></li>
-              <li><a href="#vendors">Untuk Mitra</a></li>
-              <li><a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer">Download App</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#products">App Screens</a></li>
             </ul>
           </div>
 
           <div className="footer-links">
-            <h4>Perusahaan</h4>
+            <h4>About</h4>
             <ul>
-              <li><a href="#contact">Tentang Kami</a></li>
-              <li><a href="#contact">Kontak</a></li>
-              <li><a href="#problem">Masalah yang Kami Selesaikan</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#bmc">Business Model</a></li>
+              <li><a href="#reflections">Reflections</a></li>
             </ul>
           </div>
 
           <div className="footer-links">
-            <h4>Dukungan</h4>
+            <h4>Evidence</h4>
             <ul>
-              <li><a href="#contact">Bantuan</a></li>
-              <li><a href="#contact">FAQ</a></li>
-              <li><a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="#problem">Problem</a></li>
+              <li><a href="#feedback">Feedback</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} BeeGrub. All rights reserved. Made with 💚 at BINUS University Anggrek.</p>
-          <p className="footer-note">Proyek untuk Mata Kuliah Business Ideation - Semester 5</p>
+          <p>&copy; {currentYear} BeeGrub Team. Market validation e-catalog for academic use.</p>
+          <p className="footer-note">Business Ideation Project · BINUS University Anggrek · Semester 5</p>
         </div>
       </div>
     </footer>

@@ -1,14 +1,15 @@
+
 .reflections-section {
-  padding: 80px 20px;
-  background: white;
+  padding: 72px 20px;
+  background: #ffffff;
 }
 
 .member-selector {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 48px 0;
+  margin: 32px 0 36px;
 }
 
 .member-btn {
@@ -60,10 +61,10 @@
 
 .reflection-content {
   background: white;
-  border-radius: 24px;
-  padding: 48px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
-  border: 3px solid #34C759;
+  border-radius: 18px;
+  padding: 28px 32px 24px;
+  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.08);
+  border: 2px solid #e5e7eb;
   animation: fadeIn 0.5s ease;
 }
 
@@ -75,22 +76,22 @@
 .reflection-header {
   display: flex;
   align-items: center;
-  gap: 24px;
-  padding-bottom: 32px;
-  border-bottom: 3px solid #e5e7eb;
-  margin-bottom: 32px;
+  gap: 20px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 24px;
 }
 
 .reflection-photo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border: 4px solid #34C759;
+  border: 3px solid #34C759;
   object-fit: cover;
 }
 
 .reflection-name {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 800;
   color: #1f2937;
   margin-bottom: 4px;
@@ -109,33 +110,23 @@
 }
 
 .reflection-body {
-  display: grid;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.reflection-section {
-  background: #f9fafb;
-  padding: 24px;
-  border-radius: 12px;
-  border-left: 4px solid #34C759;
-}
-
-.reflection-section.conclusion {
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-  border-left: 6px solid #34C759;
-}
-
-.reflection-section h4 {
-  font-size: 18px;
-  font-weight: 800;
-  color: #1f2937;
-  margin-bottom: 12px;
-}
-
-.reflection-section p {
-  font-size: 15px;
+.reflection-paragraph {
+  font-size: 14px;
   color: #4b5563;
-  line-height: 1.8;
+  line-height: 1.7;
+}
+
+.reflection-paragraph--highlight {
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px dashed #d1d5db;
+  font-weight: 600;
+  color: #111827;
 }
 
 @media (max-width: 768px) {

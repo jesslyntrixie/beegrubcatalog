@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\usepackage[paperwidth=10cm,paperheight=10cm,margin=0cm]{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{pagecolor}
+\pagecolor{white}
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{tikzpicture}[remember picture,overlay]
+  % Background
+  \fill[blue!5] (0,0) rectangle (10,10);
+
+  % Top label
+  \node[anchor=west,font=\small\bfseries,text=blue!60!black]
+    at (0.8,9.3) {BeeGrub • BINUS Anggrek};
+
+  % Main headline
+  \node[align=center,font=\bfseries\large,text=black]
+    at (5,8.3) {Skip the Queue,\\Keep Your Break};
+
+  % Sub-headline
+  \node[align=center,font=\small,text=gray!60]
+    at (5,7.3)
+    {Pre-order your lunch and pick it up in minutes.};
+
+  % Phone mockup box (placeholder for app UI)
+  \draw[rounded corners=0.3cm,fill=white]
+    (3,3) rectangle (7,6.8);
+  \draw[rounded corners=0.2cm,fill=gray!10]
+    (3.4,3.4) rectangle (6.6,6.4);
+  \node[font=\small\bfseries,text=gray!60]
+    at (5,5.3) {App UI preview};
+  \node[font=\tiny,text=gray!50]
+    at (5,4.8) {Browse menus • Schedule • Track orders};
+
+  % Price badge
+  \filldraw[fill=green!70!black,text=white]
+    (7.4,6.6) circle (0.8cm);
+  \node[font=\scriptsize\bfseries,text=white,align=center]
+    at (7.4,6.6) {From\\Rp 3.000};
+
+  % Feature bullets under phone
+  \node[anchor=west,font=\scriptsize,text=gray!70]
+    at (2.2,2.5) {• Order before class};
+  \node[anchor=west,font=\scriptsize,text=gray!70]
+    at (2.2,2.1) {• Smart pickup points on campus};
+  \node[anchor=west,font=\scriptsize,text=gray!70]
+    at (2.2,1.7) {• Cashless via QRIS / e-wallet};
+
+  % Testimonial strip
+  \node[anchor=west,font=\scriptsize\itshape,text=gray!60,align=left]
+    at (0.8,1.1)
+    {"The interface looks clean and\ immediately understandable."};
+  \node[anchor=west,font=\scriptsize\bfseries,text=gray!70]
+    at (0.8,0.7)
+    {-- BINUS student, BIFEST 2025 feedback};
+
+  % CTA bar at bottom
+  \fill[blue!70!black] (0,0) rectangle (10,0.6);
+  \node[font=\scriptsize\bfseries,text=white]
+    at (5,0.3) {Coming Soon at BINUS Anggrek • Follow @BeeGrub.id};
+
+\end{tikzpicture}
+\end{document}

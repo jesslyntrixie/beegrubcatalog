@@ -9,7 +9,7 @@ const Reflections = () => {
       name: 'Brian Juniarta Darmadi',
       nim: '2702279363',
       role: 'CEO',
-      photo: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=Brian',
+      photo: '../../public/images/team/brian-ceo.jpg',
       content: {
         intro: 'For my business idea, BeeGrub, I aimed to create a pre-order food service to streamline the chaotic lunch experience for BINUS University students. I believed there was strong demand for it among my peers who constantly complain about queues. My core assumption was that students would find this service useful and affordable, primarily because it saved them time.',
         targetAudience: 'I focused on fellow BINUS University @Anggrek students for market validation. I chose them because, as a student myself, I have firsthand experience with the problem. To reach them, I used methods like Instagram story polls and informal "canteen-side chats." These methods were highly effective because they felt natural and generated honest, unfiltered opinions right at the source of the problem.',
@@ -24,7 +24,7 @@ const Reflections = () => {
       name: 'Mochammad Aqsa Sandhy Pradipta',
       nim: '2702302744',
       role: 'CFO',
-      photo: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=Aqsa',
+      photo: '../../public/images/team/aqsa-cfo.jpg',
       content: {
         intro: 'For this business idea, we aimed to create BeeGrub, a pre-order and food delivery service designed specifically for BINUS students. This idea came from real problems students often face, such as short break times, long queues at the canteen, and difficulty getting food efficiently on campus.',
         targetAudience: 'The market validation focused on BINUS University students, especially those who often eat at the campus canteen. The validation process was carried out by opening a BeeGrub booth during the BIFEST event, having direct conversations with students, and collecting feedback through online forms. This approach worked well because it allowed us to interact directly with real users and gather honest, relevant feedback.',
@@ -39,7 +39,7 @@ const Reflections = () => {
       name: 'Jesslyn Trixie Edvilie',
       nim: '2702260514',
       role: 'COO',
-      photo: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=Jesslyn',
+      photo: '../../public/images/team/jesslyn-coo.jpg',
       content: {
         intro: 'For my business idea, I aimed to create BeeGrub, a tech platform to solve food logistics on campus. I believed there was a strong demand for it among students who are digitally native and expect efficiency. I assumed that students would find this product useful and affordable if the tech was seamless and reliable.',
         targetAudience: 'I focused on tech-savvy college students at BINUS for market validation. I chose them because they are the early adopters who would appreciate a well-built app and are most vocal about their user experience. To reach them, I used methods like posting on the BINUS Discord server and targeted social media messages. These methods were effective because they allowed for direct, asynchronous conversations with our ideal initial user base.',
@@ -54,7 +54,7 @@ const Reflections = () => {
       name: 'Mirekel Tjoa',
       nim: '2702328831',
       role: 'CMO',
-      photo: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=Mirekel',
+      photo: '../../public/images/team/mirekel-cmo.jpg',
       content: {
         intro: 'For our business idea, we aimed to create a food delivery service with a pre-order system. We believed there was strong demand for it among Bina Nusantara University students. I assumed that students would find this product useful and affordable because academic pressure often makes them focus on urgent tasks rather than eating.',
         targetAudience: 'We focused on Bina Nusantara University students, specifically those at the Anggrek campus, for market validation. We chose them because they seem to need my service based on the fact that campus activities are so busy that students often skip meals or have inconsistent eating schedules. To reach them, we used methods like analyzing supporting data from student-focused blogs and news outlets. These methods were effective because they highlighted that students often forget to eat more frequently than they forget their deadlines.',
@@ -69,7 +69,7 @@ const Reflections = () => {
       name: 'Nico Wijaya Hariyanto',
       nim: '2702223260',
       role: 'CTO',
-      photo: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=Nico',
+      photo: '../../public/images/team/nico-cto.jpg',
       content: {
         intro: 'For our business idea, BeeGrub, I contributed to validating a pre-order food delivery platform designed to solve the chaotic lunch experience for BINUS Anggrek students. My role as CTO extended beyond technical oversight. I was deeply involved in processing user feedback, coordinating validation activities, and stepping in to manage operational gaps when the team faced confusion. My core assumption was that a seamless, app-based pre-order system would be widely adopted if it genuinely saved time and reduced stress.',
         targetAudience: 'We focused exclusively on BINUS University students at the Anggrek campus since they are the primary users who face daily lunchtime inefficiencies (especially those who had classes on higher floors). As a student myself, I understood the context, but we needed structured validation. We reached them through digital surveys distributed at our booth during Binus Festival and Entrepreneurship Corner events, direct observation of lunchtime behaviors in canteens and common areas, and informal interviews with peers during breaks.',
@@ -91,7 +91,7 @@ const Reflections = () => {
             Story of Our <span className="gradient-text">Validation Journey</span>
           </h2>
           <p className="section-subtitle">
-            Refleksi dan pembelajaran dari 5 anggota tim BeeGrub dalam proses market validation
+            Reflections and key learnings from 5 BeeGrub team members throughout the market validation process.
           </p>
         </div>
 
@@ -124,40 +124,27 @@ const Reflections = () => {
           </div>
 
           <div className="reflection-body">
-            <div className="reflection-section">
-              <h4>📝 Introduction</h4>
-              <p>{reflections[activeReflection].content.intro}</p>
-            </div>
-
-            <div className="reflection-section">
-              <h4>🎯 Target Audience Research</h4>
-              <p>{reflections[activeReflection].content.targetAudience}</p>
-            </div>
-
-            <div className="reflection-section">
-              <h4>🔍 Validation Methods</h4>
-              <p>{reflections[activeReflection].content.methods}</p>
-            </div>
-
-            <div className="reflection-section">
-              <h4>💡 Data and Insights</h4>
-              <p>{reflections[activeReflection].content.insights}</p>
-            </div>
-
-            <div className="reflection-section">
-              <h4>⚠️ Challenges Encountered</h4>
-              <p>{reflections[activeReflection].content.challenges}</p>
-            </div>
-
-            <div className="reflection-section">
-              <h4>✅ Actionable Outcomes</h4>
-              <p>{reflections[activeReflection].content.outcomes}</p>
-            </div>
-
-            <div className="reflection-section conclusion">
-              <h4>🎓 Conclusion</h4>
-              <p>{reflections[activeReflection].content.conclusion}</p>
-            </div>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.intro}
+            </p>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.targetAudience}
+            </p>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.methods}
+            </p>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.insights}
+            </p>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.challenges}
+            </p>
+            <p className="reflection-paragraph">
+              {reflections[activeReflection].content.outcomes}
+            </p>
+            <p className="reflection-paragraph reflection-paragraph--highlight">
+              {reflections[activeReflection].content.conclusion}
+            </p>
           </div>
         </div>
       </div>

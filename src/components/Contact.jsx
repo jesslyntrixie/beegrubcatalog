@@ -6,12 +6,12 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="contact-container">
         <div className="contact-content">
-          <span className="section-badge">Hubungi Kami</span>
+          <span className="section-badge">Get in Touch</span>
           <h2 className="section-title">
-            Siap <span className="gradient-text">Bergabung</span> dengan BeeGrub?
+            Want to <span className="gradient-text">discuss</span> BeeGrub?
           </h2>
           <p className="contact-intro">
-            Ada pertanyaan? Ingin jadi mitra kantin? Kami siap membantu!
+            Questions about the project or our validation journey? Contact our team using any of the channels below.
           </p>
 
           <div className="contact-methods">
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="contact-method">
               <div className="method-icon">📍</div>
               <div className="method-info">
-                <h4>Lokasi</h4>
+                <h4>Location</h4>
                 <p>BINUS Anggrek Campus<br />Jakarta, Indonesia</p>
               </div>
             </div>
@@ -51,27 +51,27 @@ const Contact = () => {
         </div>
 
         <div className="faq-section">
-          <h3>Pertanyaan yang Sering Diajukan</h3>
+          <h3>Quick Questions</h3>
           <div className="faq-list">
             <details className="faq-item">
-              <summary>Bagaimana cara kerja BeeGrub?</summary>
-              <p>Pesan makanan 2-3 jam sebelumnya lewat aplikasi, pilih waktu dan lokasi pickup, lalu ambil pesanan saat siap. Tanpa antre!</p>
+              <summary>How does BeeGrub work?</summary>
+              <p>Students pre-order food 2–3 hours before, choose a pickup time and location, then collect their order when it is ready—no queues.</p>
             </details>
             <details className="faq-item">
-              <summary>Berapa biaya layanan BeeGrub?</summary>
-              <p>Biaya layanan flat Rp 3.000 per pesanan. Ini sudah termasuk koordinasi pickup dan sistem platform. Harga menu dari kantin dibayar penuh kepada vendor.</p>
+              <summary>How much is the BeeGrub service fee?</summary>
+              <p>A flat Rp 3.000 per order. This covers coordination of pickup and the platform. Vendors still receive 100% of their listed menu prices.</p>
             </details>
             <details className="faq-item">
-              <summary>Apakah BeeGrub hanya untuk BINUS Anggrek?</summary>
-              <p>Saat ini fokus di BINUS Anggrek. Kami berencana ekspansi ke kampus BINUS lainnya setelah MVP sukses.</p>
+              <summary>Is BeeGrub only for BINUS Anggrek?</summary>
+              <p>For now, we focus on BINUS Anggrek. We plan to expand to other BINUS campuses once the MVP is validated.</p>
             </details>
             <details className="faq-item">
-              <summary>Metode pembayaran apa saja yang tersedia?</summary>
-              <p>Kami menerima QRIS, e-wallet (GoPay, OVO, Dana, ShopeePay), dan mobile banking melalui payment gateway yang aman.</p>
+              <summary>What payment methods are supported?</summary>
+              <p>We support QRIS, e-wallets (GoPay, OVO, Dana, ShopeePay), and mobile banking via a secure payment gateway.</p>
             </details>
             <details className="faq-item">
-              <summary>Bagaimana cara vendor bergabung?</summary>
-              <p>Kantin dapat mendaftar melalui aplikasi atau menghubungi kami. Setelah verifikasi dan persetujuan admin, Anda siap menerima pesanan!</p>
+              <summary>What stage is BeeGrub in now?</summary>
+              <p>BeeGrub is currently in the market validation and planning stage. This e-catalog is part of our academic project documentation.</p>
             </details>
           </div>
         </div>

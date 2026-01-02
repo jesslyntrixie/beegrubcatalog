@@ -1,0 +1,332 @@
+BeeGrub:
+BINUS Canteen
+Delivery Service
+Business Plan
+Presented by BeeGrub Binusians
+Design Thinking 
+Target Pengguna: 
+Mahasiswa BINUS Kampus Anggrek dengan
+jadwal kelas padat yang tidak menyipkan bekal
+dari rumah
+Pains:
+Rasa cemas dan stres karena waktu istirahat
+yang sangat terbatas.
+Penurunan fokus belajar akibat menahan lapar.
+Risiko terlambat masuk kelas setelah istirahat.
+Empathize
+Insight:
+Masalah utama terletak pada proses
+mendapatkan makanan yang tidak efisien. Proses
+ini menghabiskan sumber daya yang paling
+berharga: Waktu.
+Problem Statement: 
+Mahasiswa BINUS Anggrek dengan jadwal padat
+membutuhkan cara yang cepat dan terprediksi
+untuk mendapatkan makan siang di sela-sela
+waktu istirahat yang sangat terbatas, agar mereka
+bisa makan dengan tenang dan kembali ke kelas
+tepat waktu.
+Define
+Design Thinking 
+Supporting data
+“Jadwal kuliah yang padat, kegiatan organisasi, tugas, dan ujian membuat banyak mahasiswa
+melewatkan waktu makan atau makan di waktu yang tidak konsisten”
+(https://sehat20an.blogspot.com/2025/04/masalah-pola-makan-pada-mahasiswa-masa.html)
+“Tekanan akademik yang besar terhadap mahasiswa cenderung mengarahkan fokus terhadap hal yang
+dianggap mendesak oleh mahasiswa. Dalam hal ini “rasa lapar” sering tidak dianggap sebagai
+prioritas.”(https://www.idntimes.com/life/education/mahasiswa-lebih-sering-lupa-makan-daripada-lupa
+deadline-c1c2-01-bfjms-9pgr2g)
+Design Thinking 
+Ideate
+Untuk mengatasi masalah, kami menggagas BeeGrub: sebuah platform digital hyper-local yang dirancang
+khusus untuk ekosistem Kampus BINUS Anggrek.
+Solusi kami berpusat pada tiga pilar utama:
+Pemesanan Terjadwal (Order for Later): Memungkinkan mahasiswa memesan makanan di pagi hari untuk
+jam istirahat spesifik, menghilangkan antrean dan waktu tunggu.
+Sistem Identifikasi: Memastikan setiap transaksi aman, transparan, dan terverifikasi menggunakan akun
+mahasiswa dan data mitra kantin.
+Sistem Pembayaran Terpusat: Menyediakan metode pembayaran digital yang cepat dan praktis, mencatat
+semua transaksi secara real-time.
+Design Thinking 
+Testing
+Prototype Testing
+Buat versi aplikasi minimal (MVP) dengan beberapa kantin dan kurir mahasiswa.
+User Feedback 
+Survei & wawancara mahasiswa untuk mengukur kepuasan, kecepatan, dan kenyamanan.
+Iterasi
+Perbaiki fitur, rute pengantaran, dan pengalaman pengguna berdasarkan feedback.
+Metrics
+Waktu tunggu, jumlah pre-order, rating kepuasan, dan repeat order.
+Design Thinking Prototype
+Flowchart
+Main Features Order for Later
+ID Identification
+Billing System
+01
+02
+03
+Order for Later
+Proses Kerja:
+Mahasiswa membuka aplikasi BeeGrub, memilih
+menu dari kantin, lalu menentukan jam
+pengantaran/pengambilan yang presisi (contoh:
+Pukul 12:15 saat jeda kelas).
+Sistem secara otomatis menyimpan pesanan dan
+memberitahu mitra kantin kapan pesanan tersebut
+harus mulai disiapkan.
+Mitra kantin menyiapkan makanan sesuai jadwal
+yang ditentukan, memastikan makanan tetap hangat
+dan tidak perlu dibuat terburu-buru.
+Makanan diantar ke pick-up point strategis yang telah
+dipilih mahasiswa sebelum jam istirahat dimulai.
+Mahasiswa menerima notifikasi final saat makanan
+sudah siap di lokasi, sehingga mereka bisa langsung
+mengambilnya tanpa menunggu.
+Manfaat Utama:
+Mengubah waktu istirahat yang tadinya habis
+untuk antre menjadi waktu untuk makan.
+Makanan dijamin datang sesuai jadwal,
+sehingga mahasiswa tidak cemas akan
+keterlambatan.
+Mitra kantin dapat mengelola pesanan
+dengan lebih baik dan tidak kewalahan saat
+jam sibuk.
+ID Identification
+Proses Kerja:
+Mahasiswa mendaftar menggunakan akun email
+resmi 
+BINUS. 
+Mitra 
+kantin 
+mendaftar
+menggunakan data usaha yang terverifikasi oleh
+tim BeeGrub.
+Sistem memberikan ID unik untuk setiap
+mahasiswa dan mitra kantin yang terdaftar di
+platform.
+Setiap transaksi yang terjadi secara otomatis
+tercatat dengan identitas yang jelas: siapa yang
+memesan (mahasiswa) dan siapa yang
+menyiapkan (kantin).
+ID ini juga digunakan untuk mengakses fitur
+spesifik seperti promo khusus mahasiswa atau
+melihat laporan keuangan bagi mitra kantin.
+Manfaat Utama:
+Mencegah adanya pesanan fiktif karena
+semua pengguna dan mitra memiliki
+identitas yang jelas dan terverifikasi.
+Memudahkan pelacakan jika terjadi masalah
+pada pesanan.
+Membuka peluang untuk memberikan
+program loyalitas atau penawaran khusus
+berdasarkan data pengguna.
+Billing System
+Proses Kerja:
+Saat checkout, mahasiswa memilih metode
+pembayaran digital yang diinginkan (e-wallet,
+QRIS, atau saldo internal BeeGrub).
+Sistem secara otomatis menghitung total harga,
+termasuk biaya layanan (jika ada), tanpa perlu
+perhitungan manual.
+Mahasiswa melakukan pembayaran langsung
+melalui aplikasi. Transaksi akan tercatat secara
+real-time dan terkonfirmasi dalam hitungan detik.
+Mitra kantin langsung menerima notifikasi bahwa
+pesanan telah dibayar lunas sebelum mereka
+mulai memasak.
+Sistem 
+Manfaat Utama:
+Menghilangkan kebutuhan akan uang tunai
+dan kembalian, mempercepat seluruh
+proses.
+Memudahkan mahasiswa dan mitra kantin
+untuk memantau arus kas mereka.
+Memastikan kantin tidak mengalami
+kerugian akibat pesanan yang tidak dibayar.
+menyediakan 
+rekap 
+transaksi
+harian/bulanan untuk mahasiswa (untuk kontrol
+pengeluaran) dan laporan pendapatan detail
+untuk mitra kantin.
+BeeGrub adalah aplikasi pemesanan
+dan antar makanan khusus untuk
+mahasiswa BINUS Kampus Anggrek
+dengan jadwal padat. Aplikasi ini
+memungkinkan pre-order, pembayaran
+digital, live tracking pesanan, dan
+pilihan pick-up point strategis agar
+mahasiswa bisa mendapatkan
+makanan dengan cepat dan efisien di
+sela waktu istirahat yang terbatas.
+Question 1: 
+Describe the idea/product
+in a few sentences
+Question 2: 
+What problems will this
+idea/product solve?
+Mahasiswa sering kehabisan waktu
+untuk makan siang karena antre
+panjang.
+Pengalaman makan buruk akibat
+terburu-buru dan pilihan menu
+terbatas.
+Jadwal padat membuat mahasiswa
+sering mengabaikan kebutuhan fisik
+dan mental.
+BeeGrub memecahkan masalah
+dengan menyediakan cara cepat,
+efisien, dan praktis untuk
+mendapatkan makanan tanpa
+menghabiskan waktu berharga.
+Customer goal: Memberikan
+pengalaman makan siang yang
+cepat, nyaman, dan sehat.
+Operational goal: Menghubungkan
+kantin/warung sekitar dengan
+mahasiswa melalui platform
+digital.
+Financial goal: Membangun model
+bisnis berbasis komisi per
+transaksi & layanan premium.
+Question 3: 
+What are my goals with
+this idea/product?
+Question 4: 
+What research have I
+already done?
+Observasi langsung: mahasiswa
+dengan jadwal padat sering kesulitan
+makan siang.
+Temuan: antrean panjang di kantin dan
+waktu istirahat yang terbatas membuat
+proses makan tidak efisien.
+Artikel tentang food delivery apps
+dan adopsinya di kalangan
+mahasiswa.
+Data umum dari tren
+GoFood/GrabFood di Indonesia
+sebagai pembanding.
+Insight: mahasiswa cenderung
+memilih efisiensi waktu daripada
+variasi makanan.
+Question 5: 
+Is there any existing research data
+already available?
+Question 6: 
+Is there anything I already
+learned from the feedback?
+Mahasiswa lebih memilih kecepatan
+daripada harga paling murah.
+Lokasi pick-up point yang strategis
+sangat krusial.
+Antrean di kantin jadi problem utama
+yang ingin dihindari.
+Pre-order & scheduled delivery
+(agar sesuai jadwal istirahat
+mahasiswa).
+Pick-up point strategis (mengurangi
+antre).
+Menu digital & pembayaran
+cashless (praktis dan efisien).
+Question 7: 
+Based on my idea/product, what 3 aspects
+would I single out as the most important?
+Question 8: 
+Based on my idea/product, what 3 aspects
+would I single out as the least important?
+Variasi desain UI aplikasi (selama
+tetap user-friendly).
+Fitur promosi diskon besar (bukan
+prioritas utama mahasiswa).
+Opsi review makanan detail (tidak
+sepenting kecepatan & ketersediaan).
+Fokus khusus pada mahasiswa
+BINUS Anggrek, bukan layanan
+umum seperti GrabFood/GoFood.
+Menyediakan pick-up point
+strategis di dalam kampus.
+Live tracking pesanan dengan
+estimasi presisi sesuai jam
+istirahat mahasiswa.
+Model operasional didesain on
+campus only sehingga lebih cepat
+dan efisien.
+Question 9: 
+Why is my idea/product different than
+others on the market?
+Question 10: 
+What are my longterm goals with this
+idea/product?
+1 year goal: Meluncurkan aplikasi versi
+beta dan bekerja sama dengan
+kantin/warung sekitar kampus.
+3 year goal: Menjadi platform utama
+pemesanan makanan di kampus
+BINUS.
+5 year goal: Ekspansi ke kampus
+kampus lain di Jakarta.
+10 year goal: Menjadi solusi food-tech
+kampus skala nasional dengan
+integrasi layanan kesehatan & nutrisi
+mahasiswa.
+Kebutuhan
+Dari Customer
+Customer segments
+Gains
+Pains
+Customer
+ jobs
+1.Makan yang terburu
+buru
+1.Memesan makanan tanpa
+antri panjang 1.Bisa makan
+di pada jeda
+antar jam
+kuliah
+2. Mengantri untuk
+membeli makanan butuh
+waktu yang lama
+3. Masuk ke kelas
+terlambat
+2. Bisa makan dengan
+tenang atau sisa waktu
+3. Lebih produktif dan
+tidak stress 2. Masuk ke kelas
+berikutnya tepat
+waktu
+3. Merasa
+tenang dan
+tidak
+terburu
+buru saat
+jam istirahat.
+Nilai yang
+ditawarkan
+ Gain creators
+Pain relievers
+Products & services
+Value proposition
+1.Makanan diantar ke lantai
+kelas anda
+1.Menyediakan sistem pre-order
+1.Layanan
+pre-order
+melalui
+platform
+digital
+2. Memberikan sisa waktu istirahat/
+waktu istirahat yang cukup
+2. Memesan makanan dari jauh dan tidak
+perlu mengantri
+3. Mengurangi stress saat
+waktu istirahat
+2. Jasa pengantaran
+ke titik pengambilan
+3. Sistem
+pembayaran
+terpusat dengan
+QRIS atau via
+transfer
+3. Memungkinkan untuk menghemat waktu
+untuk makan 

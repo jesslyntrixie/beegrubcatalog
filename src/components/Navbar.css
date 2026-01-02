@@ -46,16 +46,17 @@
 
 .navbar-menu {
   display: flex;
-  gap: 32px;
+  gap: 20px;
   align-items: center;
 }
 
 .navbar-menu li a {
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: color 0.3s;
+  text-decoration: none;
 }
 
 .navbar-menu li a:hover {

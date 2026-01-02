@@ -5,37 +5,41 @@ const Problem = () => {
   const problems = [
     {
       icon: '⏰',
-      title: 'Proses Makan Tidak Efisien',
-      description: 'Proses makan menyita waktu dan mengganggu jadwal kuliah yang padat'
+      title: 'Short Break, Long Process',
+      description:
+        'BINUS Anggrek students only have a few minutes between classes, but the current process of walking to the canteen, queueing, and waiting for food can easily take 30–35 minutes.',
     },
     {
       icon: '😰',
-      title: 'Waktu Istirahat Jadi Stres',
-      description: 'Waktu istirahat berubah jadi sumber stres dan kecemasan, bukan waktu relaksasi'
+      title: 'Stress Instead of Rest',
+      description:
+        'Lunch breaks become a source of anxiety—students rush to secure food and seats, worry about being late, and often eat in a hurry or while standing.',
     },
     {
       icon: '🍽️',
-      title: 'Mahasiswa Sering Melewatkan Makan',
-      description: 'Aktivitas kampus yang padat membuat mahasiswa melewatkan makan hingga mengganggu fokus belajar'
+      title: 'Skipped or Late Meals',
+      description:
+        'Under academic pressure, students frequently postpone or skip meals, which hurts concentration, health, and overall campus well‑being.',
     },
     {
       icon: '🏢',
-      title: 'Kemacetan Vertikal',
-      description: 'Naik turun kantin lama, sulit cari tempat duduk, dan antrian tidak merata'
-    }
+      title: 'Vertical Congestion on Campus',
+      description:
+        'Crowded lifts, crowded canteens, and limited seating create "vertical congestion"—students waste precious time moving between floors just to get food.',
+    },
   ];
 
   return (
     <section id="problem" className="problem-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">😤 THE PROBLEM</span>
-          <h2 className="section-title">Kenapa Mahasiswa BINUS Butuh BeeGrub?</h2>
+          <span className="section-badge">😤 The Problem</span>
+          <h2 className="section-title">Why BINUS Anggrek Needs BeeGrub</h2>
           <p className="section-subtitle">
-            Tekanan akademik membuat mahasiswa lebih fokus pada hal mendesak daripada kebutuhan makan
+            BeeGrub addresses a simple but critical issue: students are losing time, energy, and focus just to get lunch on a crowded vertical campus.
           </p>
         </div>
-        
+
         <div className="problems-grid">
           {problems.map((problem, index) => (
             <div key={index} className="problem-card">
@@ -44,27 +48,6 @@ const Problem = () => {
               <p className="problem-description">{problem.description}</p>
             </div>
           ))}
-        </div>
-
-        <div className="why-now-section">
-          <h3 className="why-now-title">Kenapa Sekarang?</h3>
-          <div className="why-now-grid">
-            <div className="why-now-card">
-              <span className="why-now-emoji">🏢</span>
-              <h4>Kemacetan Vertikal</h4>
-              <p>Naik turun kantin lama! Belum makan, waktu istirahat sudah habis 😓</p>
-            </div>
-            <div className="why-now-card">
-              <span className="why-now-emoji">💺</span>
-              <h4>Defisit Kursi</h4>
-              <p>Lama cari tempat kosong! Makan di kantin kurang ideal 😫</p>
-            </div>
-            <div className="why-now-card">
-              <span className="why-now-emoji">👥</span>
-              <h4>Antrian Tidak Rata</h4>
-              <p>Ada yang ramai, ada yang sepi. Habis waktu buat ngantri deh 😤</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

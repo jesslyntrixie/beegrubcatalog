@@ -5,23 +5,23 @@ const ForVendors = () => {
   const benefits = [
     {
       icon: '📊',
-      title: 'Permintaan yang Dapat Diprediksi',
-      description: 'Tahu persis apa yang harus disiapkan 2-3 jam sebelumnya. Kurangi food waste hingga 30%.',
+      title: 'Predictable Daily Demand',
+      description: 'Vendors know exactly what to prepare 2–3 hours earlier, reducing food waste by up to 30%.',
     },
     {
       icon: '⚡',
-      title: 'Operasional Lebih Efisien',
-      description: 'Pre-order membantu perencanaan produksi dan mengurangi kekacauan saat jam sibuk.',
+      title: 'Calmer Peak Hours',
+      description: 'Pre-order smooths production planning and reduces chaos during the busiest lunch periods.',
     },
     {
       icon: '💰',
-      title: 'Revenue Penuh untuk Vendor',
-      description: 'Anda terima 100% harga menu. Biaya layanan Rp 3.000 dibayar oleh mahasiswa, bukan vendor.',
+      title: 'Full Revenue for Vendors',
+      description: 'Vendors receive 100% of menu prices. The Rp 3.000 service fee is paid by students, not the canteen.',
     },
     {
       icon: '📱',
-      title: 'Dashboard Mudah Digunakan',
-      description: 'Kelola menu, pesanan, dan pendapatan dalam satu tempat. Interface simpel dan intuitif.',
+      title: 'Simple Vendor Dashboard',
+      description: 'Manage menus, orders, and daily revenue in one simple, intuitive interface.',
     },
   ];
 
@@ -29,13 +29,13 @@ const ForVendors = () => {
     <section id="vendors" className="for-vendors">
       <div className="vendors-container">
         <div className="vendors-content">
-          <span className="section-badge">Untuk Mitra Kantin</span>
+          <span className="section-badge">Vendor Perspective</span>
           <h2 className="section-title">
-            Bergabung dengan BeeGrub sebagai <span className="gradient-text">Mitra Kantin</span>
+            How BeeGrub Works for <span className="gradient-text">Canteen Vendors</span>
           </h2>
           <p className="vendors-intro">
-            Tingkatkan efisiensi operasional kantin dengan sistem pre-order kami. 
-            Layani lebih banyak mahasiswa dengan efisien sambil mengurangi waste dan kekacauan.
+            This section summarizes the value proposition and pricing model for campus canteen partners. 
+            It is meant for the report only – we are not yet publicly opening vendor sign-ups.
           </p>
 
           <div className="benefits-grid">
@@ -51,31 +51,24 @@ const ForVendors = () => {
           </div>
 
           <div className="vendor-pricing">
-            <h3>Model Harga Transparan</h3>
+            <h3>Transparent Pricing Model</h3>
             <div className="pricing-card">
               <div className="price-tag">
                 <span className="percentage">100%</span>
-                <span className="price-label">Anda terima dari harga menu</span>
+                <span className="price-label">of menu price received by vendor</span>
               </div>
               <ul className="pricing-features">
-                <li>✅ Zero komisi untuk vendor</li>
-                <li>✅ Biaya layanan Rp 3.000 dibayar mahasiswa</li>
-                <li>✅ Tidak ada biaya setup</li>
-                <li>✅ Tidak ada biaya bulanan</li>
-                <li>✅ Payout mingguan</li>
+                <li>✅ Zero commission for vendors</li>
+                <li>✅ Rp 3.000 service fee is paid by students</li>
+                <li>✅ No setup fees</li>
+                <li>✅ No monthly subscription fees</li>
+                <li>✅ Weekly payout schedule</li>
               </ul>
               <div className="pricing-example">
-                <strong>Contoh:</strong> Menu Rp 25.000 → Anda terima Rp 25.000<br/>
-                <span style={{fontSize: '14px', opacity: 0.8}}>Mahasiswa bayar Rp 28.000 (menu + fee)</span>
+                <strong>Example:</strong> Menu Rp 25.000 → Vendor receives Rp 25.000<br/>
+                <span style={{fontSize: '14px', opacity: 0.8}}>Student pays Rp 28.000 (menu + service fee)</span>
               </div>
             </div>
-          </div>
-
-          <div className="vendor-cta">
-            <a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer" className="btn-primary-large">
-              Daftar Jadi Mitra
-            </a>
-            <p className="cta-note">Bergabunglah dengan kantin-kantin kampus yang sudah menggunakan BeeGrub</p>
           </div>
         </div>
 

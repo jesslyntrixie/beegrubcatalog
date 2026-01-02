@@ -1,9 +1,11 @@
 .hero {
   min-height: 100vh;
-  padding: 120px 24px 80px;
+  padding: 100px 24px 60px;
   background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .hero-container {
@@ -77,6 +79,17 @@
 .hero-cta {
   display: flex;
   gap: 16px;
+}
+
+.hero-availability {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.hero-availability span {
+  font-weight: 600;
+  color: #000000;
 }
 
 .btn-primary {

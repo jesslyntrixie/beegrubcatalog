@@ -54,25 +54,6 @@ const FeedbackGrid = () => {
           </p>
         </div>
 
-        <div className="feedback-stats">
-          <div className="stat-card">
-            <div className="stat-number">60+</div>
-            <div className="stat-label">Total Responses</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">85%</div>
-            <div className="stat-label">Positive Feedback</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">11</div>
-            <div className="stat-label">Improvement Ideas</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">5</div>
-            <div className="stat-label">Key Questions</div>
-          </div>
-        </div>
-
         <div className="feedback-grid">
           {/* I Like */}
           <div className="feedback-box like">
