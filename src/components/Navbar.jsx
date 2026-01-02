@@ -43,7 +43,14 @@ const Navbar = () => {
           <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
         </ul>
 
-        <a href="https://github.com/yourusername/beegrub" target="_blank" rel="noopener noreferrer" className="navbar-cta">Download App</a>
+        <a
+          href="https://github.com/jesslyntrixie/beegrub/releases/tag/v0.1.0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-cta"
+        >
+          Download Android App
+        </a>
       </div>
     </nav>
   );
