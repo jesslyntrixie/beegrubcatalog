@@ -49,9 +49,9 @@ const FeedbackGrid = () => {
           <h2 className="section-title">
             Feedback Grid from <span className="gradient-text">30+ Customers</span>
           </h2>
-          <p className="section-subtitle">
+          {/* <p className="section-subtitle">
             Feedback yang kami terima dari mahasiswa BINUS melalui survey dan interview langsung
-          </p>
+          </p> */}
         </div>
 
         <div className="feedback-grid">

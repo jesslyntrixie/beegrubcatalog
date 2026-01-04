@@ -39,7 +39,7 @@ const Team = () => {
     <section id="team" className="team-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Our Team</span>
+          {/* <span className="section-badge">Our Team</span> */}
           <h2 className="section-title">BeeGrub <span className="gradient-text">Founding Team</span></h2>
           <p className="section-subtitle">
             Five BINUS students building a smoother, stress-free campus dining experience.

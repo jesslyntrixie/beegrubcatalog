@@ -89,12 +89,12 @@ const SocialMedia = () => {
     <section id="social-media" className="social-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Social Media & Promotions</span>
+          {/* <span className="section-badge">3 Social Media for Promotions</span> */}
           <h2 className="section-title">
-            Social Media & <span className="gradient-text">Promotion Posts</span>
+            3 Social Media for Promotions
           </h2>
           <p className="section-subtitle">
-            Three key Instagram posts used to promote BeeGrub, plus product displays on New Bisanara.
+            Instagram, Youtube and TikTok
           </p>
         </div>
 
@@ -121,7 +121,7 @@ const SocialMedia = () => {
         {/* New Bisanara Section */}
         <div className="bisanara-section">
           <h3 className="bisanara-title">📱 New Bisanara.com – Product Displays</h3>
-          <p className="bisanara-subtitle">Evidence of BeeGrub product screenshots published on New Bisanara.</p>
+          {/* <p className="bisanara-subtitle">Evidence of BeeGrub product screenshots published on New Bisanara.</p> */}
           <div className="bisanara-grid">
             {newBisanara.map((item) => (
               <div key={item.id} className="bisanara-card">

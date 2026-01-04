@@ -10,9 +10,9 @@ const BMC = () => {
           <h2 className="section-title">
             Business Model <span className="gradient-text">Canvas</span>
           </h2>
-          <p className="section-subtitle">
+          {/* <p className="section-subtitle">
             Model bisnis BeeGrub yang telah dikembangkan berdasarkan feedback pasar
-          </p>
+          </p> */}
         </div>
 
         <div className="bmc-canvas">

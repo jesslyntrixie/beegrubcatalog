@@ -33,13 +33,13 @@ const Navbar = () => {
         <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
           <li><a onClick={() => scrollToSection('home')}>Home</a></li>
           <li><a onClick={() => scrollToSection('problem')}>Problem</a></li>
-          <li><a onClick={() => scrollToSection('products')}>Products</a></li>
-          <li><a onClick={() => scrollToSection('demo-video')}>Demo Video</a></li>
+          <li><a onClick={() => scrollToSection('products')}>Photos</a></li>
+          <li><a onClick={() => scrollToSection('demo-video')}>DemoVideo</a></li>
           <li><a onClick={() => scrollToSection('team')}>Team</a></li>
           <li><a onClick={() => scrollToSection('exhibition')}>Exhibition</a></li>
-          <li><a onClick={() => scrollToSection('social-media')}>Social Media</a></li>
+          <li><a onClick={() => scrollToSection('social-media')}>SocialMedia</a></li>
           <li><a onClick={() => scrollToSection('bmc')}>BMC</a></li>
-          <li><a onClick={() => scrollToSection('feedback')}>Feedback</a></li>
+          <li><a onClick={() => scrollToSection('feedback')}>FeedbackGrid</a></li>
           <li><a onClick={() => scrollToSection('reflections')}>Reflections</a></li>
           <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
         </ul>
