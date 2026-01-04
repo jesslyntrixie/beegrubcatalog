@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="gradient-text">More Time to Shine</span>
           </h1>
           <p className="hero-subtitle">
-            BeeGrub is a campus-only pre-order app for BINUS Anggrek studentshelping you turn chaotic lunch breaks into calm, predictable meal times.
+            BeeGrub is a campus-only pre-order app for BINUS Anggrek students, helping you turn chaotic lunch breaks into calm, predictable meal times.
           </p>
           <div className="hero-stats">
             <div className="stat">
@@ -31,6 +31,14 @@ const Hero = () => {
           <div className="hero-cta">
             <a href="#products" className="btn-primary">
               View App Screens
+            </a>
+            <a
+              href="https://youtu.be/6XKFu8rFc9k?si=0hPqBS-V1UBfqMtE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Watch Demo Video
             </a>
           </div>
           <p className="hero-availability">

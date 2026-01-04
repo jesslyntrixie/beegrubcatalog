@@ -34,6 +34,7 @@ const Navbar = () => {
           <li><a onClick={() => scrollToSection('home')}>Home</a></li>
           <li><a onClick={() => scrollToSection('problem')}>Problem</a></li>
           <li><a onClick={() => scrollToSection('products')}>Products</a></li>
+          <li><a onClick={() => scrollToSection('demo-video')}>Demo Video</a></li>
           <li><a onClick={() => scrollToSection('team')}>Team</a></li>
           <li><a onClick={() => scrollToSection('exhibition')}>Exhibition</a></li>
           <li><a onClick={() => scrollToSection('social-media')}>Social Media</a></li>
@@ -49,7 +50,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="navbar-cta"
         >
-          Download Android App
+          Download App
         </a>
       </div>
     </nav>

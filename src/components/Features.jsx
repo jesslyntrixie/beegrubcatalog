@@ -45,9 +45,9 @@ const Features = () => {
     <section id="features" className="features">
       <div className="features-container">
         <div className="features-header">
-          <span className="section-badge">Product Features</span>
+          <span className="section-badge">Product Features and Benefits</span>
           <h2 className="section-title">
-            What <span className="gradient-text">BeeGrub</span> Actually Delivers
+            <span className="gradient-text">BeeGrub's</span> Main Features
           </h2>
           <p className="section-subtitle">
             A campus‑only pre‑order and delivery platform designed to protect the one resource BINUS students value most:

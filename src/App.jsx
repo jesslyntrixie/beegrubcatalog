@@ -6,6 +6,7 @@ import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import Benefits from './components/Benefits';
 import Products from './components/Products';
+import DemoVideo from './components/DemoVideo';
 import Team from './components/Team';
 import Exhibition from './components/Exhibition';
 import SocialMedia from './components/SocialMedia';
@@ -27,6 +28,7 @@ function App() {
         <HowItWorks />
         <Benefits />
         <Products />
+        <DemoVideo />
         <Team />
         <Exhibition />
         <SocialMedia />

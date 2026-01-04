@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} BeeGrub Team. Market validation e-catalog for academic use.</p>
-          <p className="footer-note">Business Ideation Project · BINUS University Anggrek · Semester 5</p>
+          <p className="footer-note">Entrepreneurship Course Project · BINUS University Anggrek · Semester 5</p>
         </div>
       </div>
     </footer>

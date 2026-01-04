@@ -86,13 +86,13 @@ const Reflections = () => {
     <section id="reflections" className="reflections-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Market Validation Journey</span>
+          <span className="section-badge">Reflection</span>
           <h2 className="section-title">
-            Story of Our <span className="gradient-text">Validation Journey</span>
+            Market Validation <span className="gradient-text">Reflection</span>
           </h2>
-          <p className="section-subtitle">
+          {/* <p className="section-subtitle">
             Reflections and key learnings from 5 BeeGrub team members throughout the market validation process.
-          </p>
+          </p> */}
         </div>
 
         {/* Team Member Selector */}

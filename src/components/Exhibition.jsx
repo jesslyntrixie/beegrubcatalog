@@ -29,9 +29,9 @@ const Exhibition = () => {
     <section id="exhibition" className="exhibition-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Market Validation</span>
+          {/* <span className="section-badge">Market Validation</span> */}
           <h2 className="section-title">
-            BIFEST & <span className="gradient-text">Entrepreneur Corner</span> Photos
+            BIFEST & <span className="gradient-text">EntreCorner</span> Photos
           </h2>
           <p className="section-subtitle">
             Photo documentation of our market validation activities at BINUS Festival 2025 and Entrepreneur Corner.
@@ -41,7 +41,7 @@ const Exhibition = () => {
         {/* BIFEST Section */}
         <div className="event-section">
           <div className="event-header">
-            <h3 className="event-title">🎪 BINUS Festival (BIFEST) 2025</h3>
+            <h3 className="event-title">🎪 BINUS Festival</h3>
             <div className="event-links">
               <a href="https://youtu.be/DuUieRARxfc" target="_blank" rel="noopener noreferrer" className="link-btn youtube">
                 📹 YouTube Video
@@ -63,7 +63,7 @@ const Exhibition = () => {
         {/* Entrepreneur Corner Section */}
         <div className="event-section">
           <div className="event-header">
-            <h3 className="event-title">🏪 Entrepreneur Corner</h3>
+            <h3 className="event-title">🏪 Entrepreneurship Corner</h3>
             <div className="event-links">
               <a href="https://youtu.be/4VwCfLvzOOA" target="_blank" rel="noopener noreferrer" className="link-btn youtube">
                 📹 YouTube Video

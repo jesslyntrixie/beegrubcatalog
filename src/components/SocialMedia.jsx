@@ -7,7 +7,7 @@ const SocialMedia = () => {
   const socialPosts = [
     {
       platform: 'Instagram',
-      handle: '@beegrub.binus',
+      handle: 'Instagram @beegrub.binus',
       link: 'https://www.instagram.com/p/DRNb86Gk2ho/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
       // Put 1–2 images from the same post here
       screenshots: [
@@ -21,7 +21,7 @@ const SocialMedia = () => {
     },
     {
       platform: 'Instagram',
-      handle: '@beegrub.binus',
+      handle: 'Instagram @beegrub.binus',
       link: 'https://www.instagram.com/p/DS_Wpo3kjwu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
       screenshots: [
         '/images/social-media/instagram-testimonials-1.jpg',
@@ -34,13 +34,37 @@ const SocialMedia = () => {
     },
     {
       platform: 'Instagram',
-      handle: '@beegrub.binus',
+      handle: 'Instagram @beegrub.binus',
       link: 'https://www.instagram.com/p/DS_WMPVknsV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
       screenshots: [
         '/images/social-media/instagram-pricing-1.jpg',
         '/images/social-media/instagram-pricing-2.jpg',
       ],
-      caption: 'Pricing BeeGrub untuk pilot BINUS Anggrek',
+      caption: 'BeeGrub\'s Transparent Pricing',
+      price: 'App gratis, service fee mulai Rp 3.000 / order',
+      testimony:
+        '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
+    },
+    {
+      platform: 'TikTok',
+      handle: 'TikTok  @beegrub',
+      link: 'https://vt.tiktok.com/ZS5U4QEux/',
+      screenshots: [
+        '/images/social-media/tiktok.jpeg',
+      ],
+      caption: 'BeeGrub in 20 Seconds',
+      price: 'App gratis, service fee mulai Rp 3.000 / order',
+      testimony:
+        '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
+    },
+    {
+      platform: 'YouTube',
+      handle: 'YouTube @BeeGrub',
+      link: 'https://youtu.be/6XKFu8rFc9k?si=0hPqBS-V1UBfqMtE',
+      screenshots: [
+        '/images/social-media/youtube.jpeg',
+      ],
+      caption: 'BeeGrub Full App Demo',
       price: 'App gratis, service fee mulai Rp 3.000 / order',
       testimony:
         '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
@@ -49,11 +73,16 @@ const SocialMedia = () => {
 
   // New Bisanara screenshots (already available in public/images/new-bisanara)
   const newBisanara = [
-    { id: 1, url: '/images/new-bisanara/display-1.jpg', caption: 'Product display on New Bisanara (1)' },
-    { id: 2, url: '/images/new-bisanara/display-2.jpg', caption: 'Product display on New Bisanara (2)' },
-    { id: 3, url: '/images/new-bisanara/display-3.jpg', caption: 'Product display on New Bisanara (3)' },
-    { id: 4, url: '/images/new-bisanara/display-4.jpg', caption: 'Product display on New Bisanara (4)' },
-    { id: 5, url: '/images/new-bisanara/display-5.jpg', caption: 'Product display on New Bisanara (5)' }
+    {
+      id: 1,
+      url: '/images/new-bisanara/bisanara1 (1).png',
+      caption: 'BeeGrub product successfully uploaded on New Bisanara',
+    },
+    {
+      id: 2,
+      url: '/images/new-bisanara/bisanara2.png',
+      caption: 'BeeGrub shop page created on New Bisanara',
+    },
   ];
 
   return (

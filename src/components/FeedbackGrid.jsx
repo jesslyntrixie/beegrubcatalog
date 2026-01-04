@@ -47,7 +47,7 @@ const FeedbackGrid = () => {
         <div className="section-header">
           <span className="section-badge">Customer Insights</span>
           <h2 className="section-title">
-            Feedback Grid dari <span className="gradient-text">30+ Customers</span>
+            Feedback Grid from <span className="gradient-text">30+ Customers</span>
           </h2>
           <p className="section-subtitle">
             Feedback yang kami terima dari mahasiswa BINUS melalui survey dan interview langsung

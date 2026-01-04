@@ -133,11 +133,11 @@ const Products = () => {
         <div className="section-header">
           <span className="section-badge">Product & Service Photos</span>
           <h2 className="section-title">
-            BeeGrub <span className="gradient-text">App & Service</span> Screens
+            BeeGrub <span className="gradient-text">App</span> Screens
           </h2>
-          <p className="section-subtitle">
+          {/* <p className="section-subtitle">
             Screenshots grouped by Student, Vendor, and Admin flows to clearly fulfill the "5 products or services photo" requirement.
-          </p>
+          </p> */}
         </div>
 
         {flows.map((flow) => (

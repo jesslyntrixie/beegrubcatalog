@@ -33,7 +33,7 @@ const Problem = () => {
     <section id="problem" className="problem-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">😤 The Problem</span>
+          <span className="section-badge">Product Features and Benefits</span>
           <h2 className="section-title">Why BINUS Anggrek Needs BeeGrub</h2>
           <p className="section-subtitle">
             BeeGrub addresses a simple but critical issue: students are losing time, energy, and focus just to get lunch on a crowded vertical campus.

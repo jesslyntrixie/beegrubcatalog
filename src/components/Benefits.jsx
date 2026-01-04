@@ -30,7 +30,7 @@ const Benefits = () => {
     <section id="benefits" className="benefits-section">
       <div className="benefits-container">
         <div className="benefits-header">
-          <span className="section-badge">Key Benefits</span>
+          <span className="section-badge">Product Features and Benefits</span>
           <h2 className="section-title">
             Who <span className="gradient-text">BeeGrub</span> Helps
           </h2>
