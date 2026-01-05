@@ -45,7 +45,7 @@ const FeedbackGrid = () => {
     <section id="feedback" className="feedback-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Customer Insights</span>
+          {/* <span className="section-badge">Customer Insights</span> */}
           <h2 className="section-title">
             Feedback Grid from <span className="gradient-text">30+ Customers</span>
           </h2>

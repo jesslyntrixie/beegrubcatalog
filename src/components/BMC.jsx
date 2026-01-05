@@ -6,7 +6,7 @@ const BMC = () => {
     <section id="bmc" className="bmc-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Business Strategy</span>
+          {/* <span className="section-badge">Business Strategy</span> */}
           <h2 className="section-title">
             Business Model <span className="gradient-text">Canvas</span>
           </h2>

@@ -86,7 +86,7 @@ const Reflections = () => {
     <section id="reflections" className="reflections-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Reflection</span>
+          {/* <span className="section-badge">Reflection</span> */}
           <h2 className="section-title">
             Market Validation <span className="gradient-text">Reflection</span>
           </h2>
