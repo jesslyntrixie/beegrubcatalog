@@ -13,32 +13,24 @@ const FeedbackGrid = () => {
   ];
 
   const iWish = [
-    'Fitur rekomendasi makanan yang tidak terbatas pada menu kantin',
-    'Fitur "total favorit" atau daftar menu favorit pengguna',
-    'Fitur batasan waktu pemesanan untuk menghindari penumpukan antrian',
-    'Pengembangan aplikasi mobile yang lebih interaktif dengan fitur notifikasi',
-    'Penambahan fitur ulasan dan rating untuk setiap merchant atau menu',
-    'Integrasi dengan sistem pembayaran digital yang lebih beragam',
-    'Ekspansi ke Binus region lain setelah sukses di Binus Anggrek/Kemanggisan',
-    'Perluas jangkauan layanan hingga ketiga kampus Binus Kemanggisan',
-    'Tambahkan panduan penggunaan di dalam aplikasi untuk memudahkan pengguna baru',
-    'Tambah jumlah pickup point untuk memudahkan pengambilan pesanan',
-    'Tingkatkan kualitas aplikasi secara keseluruhan'
+    'Perluasan jangkauan layanan ke lebih banyak gedung/kantin di BINUS Kemanggisan (▶ masuk rencana ekspansi setelah validasi awal)',
+    'Penambahan jumlah pickup point strategis agar pengambilan pesanan makin praktis (✓ sebagian sudah diakomodasi dalam desain operasional)',
+    'Panduan penggunaan di dalam aplikasi untuk pengguna baru (onboarding/tooltip)',
+    'Peningkatan stabilitas & kualitas aplikasi (bug, kecepatan, tampilan) (✓ jadi fokus utama development setelah fase prototype)'
   ];
 
   const questions = [
-    'Beberapa responden merasa produk kurang sesuai dengan kebutuhan saat ini',
-    'Beberapa menyarankan penambahan fitur lain yang lebih variatif',
     'Apakah BeeGrub akan berkolaborasi dengan lebih banyak tempat makan di lingkungan kampus?',
     'Apakah aplikasi ini hanya tersedia untuk kalangan Binus Anggrek/Kemanggisan atau akan dikembangkan untuk Binus region lain?',
     'Apakah akan ada fitur ulasan atau rating untuk setiap menu?'
   ];
 
   const ideas = [
-    'Tambahkan fitur premium subscription untuk prioritas pickup',
-    'Kolaborasi dengan lebih banyak vendor di area kampus',
-    'Implementasi loyalty rewards program',
-    'Integrasi dengan student ID untuk verifikasi otomatis'
+    'Rekomendasi makanan (personalized / populer) di luar menu kantin yang biasa dipesan',
+    'Daftar menu favorit pengguna ("total favorit") untuk akses cepat',
+    'Batasan waktu pemesanan di jam tertentu guna mencegah penumpukan antrean',
+    'Aplikasi yang lebih interaktif dengan notifikasi real-time status pesanan (✓ notifikasi status sudah diimplementasikan versi sekarang)',
+    'Integrasi lebih banyak metode pembayaran digital (▶ akan ditambah bertahap sesuai kerja sama payment gateway)'
   ];
 
   return (
@@ -47,11 +39,11 @@ const FeedbackGrid = () => {
         <div className="section-header">
           {/* <span className="section-badge">Customer Insights</span> */}
           <h2 className="section-title">
-            Feedback Grid from <span className="gradient-text">30+ Customers</span>
+            Feedback Grid
           </h2>
-          {/* <p className="section-subtitle">
-            Feedback yang kami terima dari mahasiswa BINUS melalui survey dan interview langsung
-          </p> */}
+          <p className="section-subtitle">
+            N = 60 Mahasiswa BINUS Anggrek
+          </p>
         </div>
 
         <div className="feedback-grid">

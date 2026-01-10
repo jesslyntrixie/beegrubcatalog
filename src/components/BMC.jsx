@@ -20,44 +20,47 @@ const BMC = () => {
           <div className="bmc-box key-partners">
             <h3>🤝 Key Partners</h3>
             <ul>
-              <li>Mitra kantin resmi di lingkungan BINUS Anggrek</li>
-              <li>Pihak kampus BINUS Anggrek (izin operasional)</li>
-              <li>Penyedia layanan pembayaran digital (QRIS, e-wallet)</li>
-              <li>Kurir internal (Staff kantin kampus)</li>
-              <li>Sponsor atau brand makanan untuk iklan banner</li>
+              <li>Kantin resmi di lingkungan BINUS Anggrek (mitra utama penjual makanan)</li>
+              <li>Pihak kampus BINUS (izin operasional, akses lokasi pick-up point)</li>
+              <li>Penyedia pembayaran digital (QRIS / e-wallet / mobile-banking)</li>
+              <li>Kurir on-campus (staff kantin / mahasiswa paruh waktu)</li>
+              <li>Komunitas & organisasi mahasiswa untuk promosi dan event validasi</li>
             </ul>
           </div>
 
           <div className="bmc-box key-activities">
             <h3>⚡ Key Activities</h3>
             <ul>
-              <li>Pengembangan & pemeliharaan aplikasi</li>
-              <li>Operasional delivery dan pickup</li>
-              <li>Rekrutmen & manajemen kurir</li>
-              <li>Kerja sama dengan vendor kantin</li>
-              <li>Pemasaran & promosi di kampus</li>
-              <li>Validasi & analisis feedback pelanggan</li>
+              <li>Pengembangan & pemeliharaan aplikasi BeeGrub (mobile/app)</li>
+              <li>Operasional pemesanan: penjadwalan, batching pesanan, koordinasi pick-up point</li>
+              <li>Rekrutmen, training, dan penjadwalan kurir on-campus</li>
+              <li>Aktivasi & onboarding kantin resmi kampus ke dalam platform</li>
+              <li>Pemasaran digital & kampus (social media, booth demo)</li>
+              <li>Pengumpulan, analisis, dan tindak lanjut feedback pengguna</li>
             </ul>
           </div>
 
           <div className="bmc-box value-propositions">
             <h3>💎 Value Propositions</h3>
             <ul>
-              <li>Menghemat waktu istirahat mahasiswa</li>
-              <li>Menghilangkan antrean dan ketidakpastian</li>
-              <li>Pembayaran cashless yang cepat dan aman</li>
-              <li>Fokus hyper-local: "Kami menjual waktu, bukan makanan"</li>
-              <li>Menciptakan kebiasaan baru dalam membeli makanan</li>
+              <li><strong>Untuk Mahasiswa:</strong> Menghemat waktu istirahat dengan pesanan makanan terjadwal</li>
+              <li>Menghilangkan antrean dan ketidakpastian ketersediaan makanan</li>
+              <li>Pembayaran cashless yang cepat, aman, dan tercatat</li>
+              <li><strong>Untuk Kantin/Vendor:</strong> Zero commission, kantin menerima 100% harga menu</li>
+              <li>Proyeksi permintaan lebih jelas lewat pre-order → produksi lebih efisien, food waste berkurang</li>
+              <li>Saluran digital resmi untuk menjangkau mahasiswa tanpa perlu membangun aplikasi sendiri</li>
+              <li><strong>Untuk Kampus:</strong> Ekosistem kantin yang lebih tertib, terukur, dan digital; antrean berkurang, area kantin lebih rapi</li>
             </ul>
           </div>
 
           <div className="bmc-box customer-relationships">
             <h3>💬 Customer Relationships</h3>
             <ul>
-              <li>Hubungan otomatis melalui aplikasi (self-service)</li>
-              <li>Customer service dalam aplikasi</li>
-              <li>Program loyalitas atau langganan premium</li>
-              <li>Umpan balik dan survey kepuasan pengguna</li>
+              <li>Self-service melalui aplikasi (registrasi, pemesanan, reschedule/cancel)</li>
+              <li>Onboarding & edukasi dalam aplikasi (tooltips, panduan first-order)</li>
+              <li>Layanan bantuan dalam aplikasi (chat/form) untuk kendala pemesanan & pembayaran</li>
+              <li>Mekanisme loyalty sederhana: stempel digital / reward berdasarkan jumlah pesanan</li>
+              <li>Survei berkala dan feedback loop untuk iterasi fitur & UX</li>
             </ul>
           </div>
 
@@ -75,21 +78,22 @@ const BMC = () => {
           <div className="bmc-box key-resources">
             <h3>🔑 Key Resources</h3>
             <ul>
-              <li>Tim inti (CEO, CTO, COO, CMO, CFO)</li>
-              <li>Server cloud, pick-up booth kampus</li>
-              <li>Brand "BeeGrub" & sistem pre-order</li>
-              <li>Database pengguna & partnership eksklusif</li>
-              <li>Modal awal tim & revenue per-order</li>
+              <li>Tim inti (CEO, COO, CTO, CMO, CFO) + kurir on-campus</li>
+              <li>Infrastruktur teknologi: server cloud, database (Supabase), aplikasi (Expo)</li>
+              <li>Brand "BeeGrub" dan sistem pre-order kampus (algoritma batching, titik pick-up)</li>
+              <li>Data operasional: histori pesanan, preferensi menu, pola jam makan</li>
+              <li>Relasi formal dengan pihak kampus dan pengelola kantin</li>
             </ul>
           </div>
 
           <div className="bmc-box channels">
             <h3>📱 Channels</h3>
             <ul>
-              <li>Aplikasi BeeGrub (mobile app)</li>
-              <li>Media sosial & komunitas kampus (Instagram, TikTok)</li>
-              <li>Booth promosi & demo langsung di area kampus</li>
-              <li>Kolaborasi dengan organisasi mahasiswa</li>
+              <li>Aplikasi BeeGrub (mobile based) sebagai channel utama transaksi</li>
+              <li>Media sosial & komunitas kampus (Instagram, Line, Discord BINUSIAN)</li>
+              <li>Booth promosi & demo langsung di area kampus (BIFEST, Entre Corner, New Bisanara)</li>
+              <li>Kolaborasi dengan organisasi mahasiswa & event kampus sebagai channel akuisisi</li>
+              <li>Poster/QR code di sekitar kantin & titik pick-up</li>
             </ul>
           </div>
 
@@ -97,21 +101,22 @@ const BMC = () => {
           <div className="bmc-box cost-structure">
             <h3>💰 Cost Structure</h3>
             <ul>
-              <li>Pengembangan & pemeliharaan aplikasi</li>
-              <li>Gaji tim & kompensasi kurir</li>
-              <li>Biaya operasional (server, izin, marketing)</li>
-              <li>Biaya kolaborasi dengan mitra kantin</li>
-              <li>Produksi konten promosi dan kampanye digital</li>
+              <li>Pengembangan & pemeliharaan aplikasi (waktu tim + cloud, naik setelah free tier habis)</li>
+              <li>Biaya operasional harian: koordinasi kurir, support pengguna, handling komplain</li>
+              <li>Biaya server, domain, dan alat operasional (dashboard, monitoring)</li>
+              <li>Biaya pemasaran & kampanye digital (stiker, konten, booth event)</li>
+              <li>Subsidi biaya QRIS 0,7% dari GTV untuk fase MVP (bulan 1–6)</li>
+              <li>Biaya legal/administratif dasar terkait kerja sama dengan kampus & vendor</li>
             </ul>
           </div>
 
           <div className="bmc-box revenue-streams">
             <h3>💵 Revenue Streams</h3>
             <ul>
-              <li><strong>Biaya Layanan:</strong> Rp 3.000 per pesanan</li>
-              <li><strong>Langganan Premium:</strong> Prioritas antrean & titik ambil eksklusif</li>
-              <li><strong>Pendapatan Iklan:</strong> Banner promosi dari kantin/brand</li>
-              <li><strong>Note:</strong> Zero komisi dari vendor - mereka terima 100% harga menu</li>
+              <li>Platform Fee tetap Rp 3.000 per pesanan, dibayar oleh mahasiswa (service fee BeeGrub)</li>
+              <li>Tidak ada komisi dari harga makanan kantin (0% commission untuk vendor)</li>
+              <li>(Opsional / jangka panjang) Slot promosi berbayar di aplikasi: banner, menu highlight</li>
+              <li>(Opsional / ide lanjutan) Fitur premium seperti prioritas antrean / titik pick-up eksklusif – belum divalidasi</li>
             </ul>
           </div>
         </div>

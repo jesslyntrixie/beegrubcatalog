@@ -5,6 +5,18 @@ const SocialMedia = () => {
   // Instagram posts (you will export the real posts as images
   // and save them under public/images/social-media/ with these filenames)
   const socialPosts = [
+     {
+      platform: 'TikTok',
+      handle: 'TikTok  @beegrub',
+      link: 'https://www.tiktok.com/@beegrub/video/7591405187491974420',
+      screenshots: [
+        '/images/social-media/tiktok.jpeg',
+      ],
+      caption: 'Viral TikTok: BeeGrub in 20 Seconds',
+      price: '30K+ views, 1500+ likes, 1500+ shares & puluhan komentar minta BeeGrub lanjut',
+      testimony:
+        'Contoh komentar: "rilis di Alsut juga plis", "pls expand ke Bekasi", "launch app‑nya pls", "download di mana ini?" – sinyal kuat mahasiswa ingin BeeGrub terus dikembangkan & ekspansi ke kampus lain.'
+    },
     {
       platform: 'Instagram',
       handle: 'Instagram @beegrub.binus',
@@ -15,9 +27,9 @@ const SocialMedia = () => {
         '/images/social-media/instagram-problem-features-2.jpg',
       ],
       caption: 'BeeGrub: Solusi antrean dan jam istirahat yang sempit',
-      price: 'Service fee mulai Rp 3.000 / order',
-      testimony:
-        '"Akhirnya ada solusi buat antre kantin pas jeda 15 menit." – Mahasiswa BINUS Anggrek'
+      // price: 'Service fee mulai Rp 3.000 / order',
+      // testimony:
+      //   '"Akhirnya ada solusi buat antre kantin pas jeda 15 menit." – Mahasiswa BINUS Anggrek'
     },
     {
       platform: 'Instagram',
@@ -28,9 +40,9 @@ const SocialMedia = () => {
         '/images/social-media/instagram-testimonials-2.jpg',
       ],
       caption: 'Apa kata mahasiswa tentang BeeGrub?',
-      price: 'Diambil dari feedback BIFEST & Entrepreneur Corner',
-      testimony:
-        '"UI‑nya simple dan gampang dipahami." – Mahasiswa, BIFEST 2025'
+      // price: 'Diambil dari feedback BIFEST & Entrepreneur Corner',
+      // testimony:
+      //   '"UI‑nya simple dan gampang dipahami." – Mahasiswa, BIFEST 2025'
     },
     {
       platform: 'Instagram',
@@ -41,22 +53,11 @@ const SocialMedia = () => {
         '/images/social-media/instagram-pricing-2.jpg',
       ],
       caption: 'BeeGrub\'s Transparent Pricing',
-      price: 'App gratis, service fee mulai Rp 3.000 / order',
-      testimony:
-        '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
+      // price: 'App gratis, service fee mulai Rp 3.000 / order',
+      // testimony:
+      //   '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
     },
-    {
-      platform: 'TikTok',
-      handle: 'TikTok  @beegrub',
-      link: 'https://vt.tiktok.com/ZS5U4QEux/',
-      screenshots: [
-        '/images/social-media/tiktok.jpeg',
-      ],
-      caption: 'BeeGrub in 20 Seconds',
-      price: 'App gratis, service fee mulai Rp 3.000 / order',
-      testimony:
-        '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
-    },
+   
     {
       platform: 'YouTube',
       handle: 'YouTube @BeeGrub',
@@ -65,9 +66,9 @@ const SocialMedia = () => {
         '/images/social-media/youtube.jpeg',
       ],
       caption: 'BeeGrub Full App Demo',
-      price: 'App gratis, service fee mulai Rp 3.000 / order',
-      testimony:
-        '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
+      // price: 'App gratis, service fee mulai Rp 3.000 / order',
+      // testimony:
+      //   '"Harga servicenya masih masuk akal kalau bisa hemat waktu segini." – Mahasiswa, Entrepreneur Corner'
     }
   ];
 
@@ -113,6 +114,15 @@ const SocialMedia = () => {
                 <p className="post-handle">
                   <a href={post.link} target="_blank" rel="noopener noreferrer">{post.handle}</a>
                 </p>
+                {post.price && (
+                  <div className="post-price">{post.price}</div>
+                )}
+                {post.testimony && (
+                  <div className="post-testimony">
+                    <span className="testimony-icon">“</span>
+                    <p>{post.testimony}</p>
+                  </div>
+                )}
               </div>
             </div>
           ))}
